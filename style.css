@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@700&family=Luckiest+Guy&display=swap');
+
 body {
+    background-color: rgba(0, 129, 90, 0.377);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -10,7 +13,10 @@ img {
     max-width: 100%;
 }
 
-#foto {}
+#foto {
+    background-image: url(fundo.jpeg);
+    background-position: cover;
+}
 
 #santinho {
     height: 600px;
@@ -21,16 +27,61 @@ img {
 }
 
 h1 {
+    font-family: 'Luckiest Guy';
+    background-color: rgb(0, 129, 90);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    font-size: 45px;
+    color:#68ff23;
+    text-shadow: #00043a 4px 4px;
     margin: 0px;
     padding: 0px;
 }
 
-#cargo {}
+#cargo {
+    font-family: 'Luckiest Guy';
+    background-color: rgb(0, 129, 90);
+    color:  #ffffff;
+    text-shadow: #000000 3px 3px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 55px;
+    font-size: 35px;
+}
 
-#slogan {}
+#slogan {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    font-size: 30px;
+    color:#68ff23;
+    text-shadow: #00043a 2px 2px;
+    font-family: 'Luckiest Guy';
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
 
-#final {}
+#final {
+    font-family: 'Luckiest Guy';  
+    height: 80px;
+    background-color:rgb(0, 129, 90);
+    display: flex;
+    justify-content: space-around;
+    font-size: 60px;
+}
 
-#numero {}
+#numero {
+    font-family: 'Luckiest Guy';
+    color: #00043a;
+    text-shadow: rgb(255, 255, 255) 2px 2px;
+}
 
-#partido {}
+#partido {
+    font-family: 'Luckiest Guy';
+    color: #00043a;
+    text-shadow: rgb(255, 255, 255) 2px 2px;
+}
